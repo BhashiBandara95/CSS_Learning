@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+table {
+	width: 45%;
+	border-collapse: collapse;
+	margin: 50px auto; /* horizontally centered the table */
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/* using sudo codes */
+tr td:nth-child(3) {
+	text-align: right;
+}
+
+/* Zebra strips */
+tbody tr:nth-child(odd) {
+	background-color: rgb(233, 140, 123);
+}
+
+thead tr:nth-child(1) {
+	background-color: rgb(173, 104, 238);
+}
+
+thead tr:nth-child(2) {
+	background-color: rgb(126, 126, 241);
+}
+
+tbody tr:hover {
+	background-color: rgb(174, 235, 113);
+}
