@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	height: 80vh;
+	background-color: lightgray;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+.item {
+	background-color: lightblue;
+	padding: 0.5rem;
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+/* 
+** Order **
+.three {
+	order: -1;
+}
+
+.two {
+	order: 1;
+} 
+
+** align-self **
+
+.three {
+	align-self: flex-end; align-self: auto | flex-start | flex-end | center | baseline | stretch; 
+}
+
+** flex-grow **
+.two {
+	flex-grow: 2;
+}
+
+.three {
+	flex-grow: 1;
+} 
+
+** flex-basis **
+
+.two {
+	flex-basis: 60%;
+}
+*/
+
+.one {
+	flex: 1 1 20%;
+}
+
+.two {
+	flex: 1 1 60%;
+}
+
+.three {
+	flex: 1 1 20%;
+}
