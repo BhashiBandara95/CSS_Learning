@@ -22,11 +22,11 @@
 /* 
 ** Order **
 .three {
-	order: -1;
+	order: -1; // item come to start
 }
 
 .two {
-	order: 1;
+	order: 1; // item come to end
 } 
 
 ** align-self **
@@ -35,7 +35,7 @@
 	align-self: flex-end; align-self: auto | flex-start | flex-end | center | baseline | stretch; 
 }
 
-** flex-grow **
+** flex-grow - Expanding availability of the element**
 .two {
 	flex-grow: 2;
 }

@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Type Selector */
+
+h1 {
+	text-align: center;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+p {
+	background-color: aqua;
+}

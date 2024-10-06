@@ -2,16 +2,23 @@
 	margin: 0;
 }
 
-.text1 {
+.h1 {
+	background-color: aqua;
 	width: 400px;
-	background-color: rgb(233, 93, 93);
 }
 
-.text2 {
+.h2 {
+	background-color: rgb(86, 86, 217);
 	width: 400px;
-	background-color: rgb(73, 73, 235);
 	padding: 20px;
-	border: 20px solid black;
+	border: 5px solid black;
+	box-sizing: content-box;
+}
+
+.h3 {
+	background-color: violet;
+	width: 400px;
+	padding: 20px;
+	border: 5px solid black;
 	box-sizing: border-box;
-	/* margin: 20px; */
 }

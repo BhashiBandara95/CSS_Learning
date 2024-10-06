@@ -16,8 +16,7 @@ td {
 	padding: 10px;
 }
 
-/* using sudo codes */
-tr td:nth-child(3) {
+using sudo codes tr td:nth-child(3) {
 	text-align: right;
 }
 
