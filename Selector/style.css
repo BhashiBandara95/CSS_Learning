@@ -4,14 +4,51 @@
 	box-sizing: border-box;
 }
 
-/* Type Selector */
+/* Attribute Selector */
 
-h1 {
-	text-align: center;
-	text-decoration: underline;
-	font-weight: 700;
+a[href] {
+	background-color: rgb(198, 156, 236);
 }
 
-p {
+a[href="www.website.com"] {
+	text-decoration: line-through;
+}
+
+/* Pseudo-class selector */
+
+h1:hover {
+	background-color: aqua;
+}
+
+li:first-child {
+	font-size: x-large;
+}
+
+/* Pseudo-element selector */
+
+p::first-letter {
+	font-size: larger;
+	font-weight: 1000;
+}
+
+/* Descendant combinator - target the element within another element */
+ul li {
+	background-color: lightcoral;
+}
+
+/* child combinator - target the direct element with connect to the parent element */
+
+article > p {
+	background-color: rgb(171, 105, 233); /* style only direct contact elements */
+}
+
+/* Adjacent sibling combinator - target the element after element */
+
+h1 + p {
+	background-color: aqua;
+}
+
+/* General sibling combinator - target the all elements under another element */
+h1 ~ p {
 	background-color: aqua;
 }
