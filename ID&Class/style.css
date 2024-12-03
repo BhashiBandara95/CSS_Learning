@@ -1,0 +1,18 @@
+#testHeader {
+	background-color: aqua;
+}
+
+.fontHighlight .specialFont {
+	background-color: rgb(
+		153,
+		64,
+		236
+	); /* content in the span tag(has multiple levels(child))-with space*/
+}
+.fontHighlight.specialFont {
+	background-color: rgb(95, 175, 16); /* (has same level)-without space*/
+}
+
+.fontHighlight {
+	font-weight: bold;
+}
