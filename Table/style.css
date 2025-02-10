@@ -26,11 +26,11 @@ tbody tr:nth-child(odd) {
 	background-color: rgb(233, 140, 123);
 }
 
-thead tr:nth-child(1) {
+thead th:nth-child(1) {
 	background-color: rgb(173, 104, 238);
 }
 
-thead tr:nth-child(2) {
+thead th:nth-child(2) {
 	background-color: rgb(126, 126, 241);
 }
 
